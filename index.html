@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh G Soppin - Hacker Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background: #0d1117;
+            color: #c9d1d9;
+            overflow-x: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #161b22;
+            border-bottom: 2px solid #30363d;
+        }
+        header h1 {
+            color: #58a6ff;
+            font-size: 1.5em;
+        }
+        header nav a {
+            margin: 0 15px;
+            color: #8b949e;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #14ef6c;
+        }
+        section {
+            padding: 50px 10%;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #14ef6c;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #58a6ff;
+        }
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #30363d;
+            display: inline-block;
+            color: #58a6ff;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            padding: 20px;
+            background: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 20px rgba(20, 239, 108, 0.3);
+        }
+        .card h3 {
+            color: #14ef6c;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 10%;
+            background: #161b22;
+            border-top: 2px solid #30363d;
+        }
+        footer a {
+            color: #14ef6c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #58a6ff;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #58a6ff;
+            object-fit: cover;
+        }
+        .download-resume {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .download-resume a {
+            background: #58a6ff;
+            color: #0d1117;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: margin-right 2s;
+        }
+        .download-resume a:hover {
+            background: #14ef6c;
+        }
+        .contact p a {
+            color: #58a6ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact p a:hover {
+            color: #14ef6c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ganesh G Soppin</h1>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#awards">Awards</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="profile">
+            <img src="/files/gs.jpeg" alt="Ganesh G Soppin">
+        </div>
+        <h2>WhiteDevil-GS</h2>
+        <p>Student, Developer, and Cybersecurity Enthusiast</p>
+    </section>
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Programming Languages</h3>
+                <p>C++, C, Python, SQL, HTML</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity Tools</h3>
+                <p>Burp Suite, Nmap, Metasploit, SQLmap, Nikto, Nuclei, Swift Scanner, Xspear, Beef, Bettercap, Wireshark, John the Ripper, Auto Spy</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity Skills</h3>
+                <p>Vulnerability Assessment, Penetration Testing, CTF Challenges, Exploitation Techniques, Information Gathering, WiFi Pentesting</p>
+            </div>
+            <div class="card">
+                <h3>Networking</h3>
+                <p>Networking Protocols, Packet Analysis, Firewall Configuration, Network Security</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">Projects & GitHub Repositories</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Phishing Site Detection</h3>
+                <p>Developed a machine learning model to detect phishing sites with high accuracy.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Bramha-Asur(D-DOS)</h3>
+                <p>A shell-based project demonstrating your proficiency in scripting and automation.</p>
+            </div>
+           
+            <div class="card">
+                <h3> Encryption And Decryption</h3>
+                <p>A C project focused on implementing encryption algorithms, showcasing your knowledge in cybersecurity and data protection.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Ransomware Simulator</h3>
+                <p>A project simulating ransomware behavior for educational purposes, showcasing your expertise in cybersecurity.</p>
+            </div>
+            <div class="card">
+                <h3>Fitness App</h3>
+                <p>An application allowing users to track fitness goals, log workouts, and monitor progress, demonstrating your full-stack development skills.</p>
+            </div>
+            <div class="card">
+                <h3>WiFi 2.0</h3>
+                <p>An advanced WiFi penetration testing tool with added features for network security assessments.</p>
+            </div>
+            <div class="card">
+                <h3>WiFi 1.0</h3>
+                <p>A basic WiFi testing tool for identifying vulnerabilities in wireless networks.</p>
+            </div>
+            <div class="card">
+                <h3>XOX Game</h3>
+                <p>A Tic-Tac-Toe game showcasing your programming logic and interactive game design skills.</p>
+            </div>
+            <div class="card">
+                <h3>Target Footprinting</h3>
+                <p>A tool for gathering information about targets for penetration testing.</p>
+            </div>
+            <div class="card">
+                <h3>Web Scraper</h3>
+                <p>A project for extracting data from websites, showcasing your knowledge of web automation and data extraction.</p>
+            </div>
+        </div>
+    </section>
+    <section id="awards">
+        <h2 class="section-title">Awards and Achievements</h2>
+        <ul>
+            <li>Gold Medal in PU Examination</li>
+            <li>Finalist in Smart India Hackathon, 2023</li>
+            <li>7th Place in RVCE CTF Challenge, 2023</li>
+            <li>33rd Place in International Hack-The-Box (HTB) CTF Challenge, 2024</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>Email: <a href="mailto:soppinganesh8@gmail.com">soppinganesh8@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/WhiteDevil-GS" target="_blank">WhiteDevil-GS</a></p>
+        <div class="download-resume">
+            <a href="assets/resume.pdf" download>Download Resume</a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Ganesh G Soppin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
